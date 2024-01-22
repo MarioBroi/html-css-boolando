@@ -33,9 +33,14 @@ body {
     display: flex;
 }
 
+
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.flex-space-btwn {
+    justify-content: space-between;
 }
 
 a {
@@ -151,3 +156,35 @@ div.product span {
 }
 
 /* #endregion Main */
+
+/* #region Footer */
+
+.site-footer {
+    background-color: var(--booleando-darker);
+}
+
+.company {
+    font-weight: 800;
+    color: var(--booleando-lighter);
+    text-align: left;
+    padding-top: 2rem;
+}
+
+.info {
+    font-size: 0.6rem;
+    padding-top: 0.6rem;
+}
+
+.socials {
+    color: var(--booleando-lighter);
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 0.6rem;
+}
+
+.socials-icons {
+    padding-top: 0.6rem;
+    font-size: 1rem;
+}
+
+/* #endregion Footer */
