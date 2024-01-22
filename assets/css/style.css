@@ -6,4 +6,53 @@
     box-sizing: border-box;
 }
 
+:root {
+    --booleando-primary: rgba(255, 105, 0, 1);
+    --booleando-lighter: white;
+    --booleando-discount: rgba(255, 0, 0, 1);
+    --booleando-sustainable: rgba(0, 128, 0, 1);
+    --booleando-darker: rgba(26, 26, 26, 1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    color: var(--booleando-lighter);
+    text-decoration: none;
+}
+
+.padding {
+    padding: 0.25rem;
+}
+
 /* #endregion Common */
+
+/* #region Header */
+
+.site-header {
+    background-color: var(--booleando-primary);
+}
+
+.logo {
+    width: 20%;
+    padding: 1rem;
+}
+
+/* #endregion Header */
